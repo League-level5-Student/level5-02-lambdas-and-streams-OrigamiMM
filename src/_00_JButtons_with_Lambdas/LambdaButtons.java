@@ -23,6 +23,17 @@ public class LambdaButtons {
 		
 		window.setVisible(true);
 		window.pack();
+		
+		addNumbers.addActionListener((e)->{
+			System.out.println("This gonna add two numbers");
+		});
+		randNumber.addActionListener((e)->{
+			System.out.println("This is gonna give a random number");
+		});
+		tellAJoke.addActionListener((e)->{
+			System.out.println("Why did the chicken cross the road? ");
+		});
+		
 	}
 	
 	public static void main(String[] args) {
